@@ -38,7 +38,7 @@ a {
 
 /* struttura blocchi pagina */
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -103,6 +103,11 @@ nav {
 /* /NAV */
 
 /* HEADER */
+.head-container {
+    width: 80%;
+    margin: auto;
+}
+
 header {
     background-color: #b4d0e7;
     height: 90vh;
@@ -144,8 +149,6 @@ header {
 /* titolo */
 #sez1 {
     margin-top: 15em;
-    /* test */
-    background-color: aqua;
 }
 
 .title-h2 {
@@ -163,38 +166,79 @@ header {
 }
 
 /* plan list */
+/* plan common */
+.plan-category {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 1em;
+
+    /* test */
+    background-color: white;
+}
+
+.plan-period {
+    font-size: small;
+    color: grey;
+    font-weight: bold;
+}
+
+.plan-name {
+    color: black;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.A {
+    margin-bottom: 3em;
+    /* test */
+    background-color: yellow;
+}
+
+.B {
+    background-color: green;
+}
+/* /plan common */
 
 .db-plan {
     width: 100%;
     margin: 3em auto;
 
     /* test */
-    background-color: rebeccapurple;
+    background-color: beige;
     height: 1000px;
+}
+
+.plan-container {
+    margin: auto;
+    padding: 2em;
+
 }
 
 .plan-sx {
     width: 30%;
+    border: 1px solid grey;
 
     /* test */
-    background-color: red;
     height: 1000px;
+    background-color: white;
 }
+
+
 
 .plan-mid {
     width: 30%;
+    border: 1px solid grey;
 
     /* test */
-    background-color: green;
     margin: 0 5%;
     height: 1000px;
 }
 
 .plan-dx {
     width: 30%;
+    border: 1px solid grey;
 
     /* test */
-    background-color: blue;
     height: 1000px;
 }
 
