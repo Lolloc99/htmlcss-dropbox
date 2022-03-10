@@ -23,6 +23,14 @@ a {
     color: inherit;
 }
 
+.larger {
+    font-size: larger;
+}
+
+.small {
+    font-size: small;
+}
+
 /* struttura blocchi pagina */
 .container {
     width: 80%;
@@ -90,8 +98,6 @@ nav {
 /* HEADER */
 header {
     background-color: #b4d0e7;
-
-    /* test */
     height: 80vh;
 }
 
@@ -111,24 +117,25 @@ header {
     margin-right: 10%;
 
     /* test */
-    background-color: purple;
     height: 350px;
+}
+
+.btn-trial {
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .head-img {
     width: 60%;
-
-    /* test */
-    background-color: yellow;
-    height: 500px;
-    
 }
 /* /HEADER */
 
+/* MAIN */
+
+/* /MAIN */
 
 /* 
 COLORI
-
 #b4d0e7 bg
 #0061ff bottoni, link, check
 #637381 periodo prezzi
