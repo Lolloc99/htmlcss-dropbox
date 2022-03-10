@@ -8,6 +8,7 @@
 /* COMMON */
 html {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -108,21 +109,24 @@ header {
 
 .title-big {
     font-size: 5em;
-    padding: 1em 0;
+    padding: 1em;
     font-weight: bold;
 }
 
 .head-text {
     width: 30%;
+    padding-left: 5em;
     margin-right: 10%;
-
-    /* test */
-    height: 350px;
 }
 
 .btn-trial {
     margin-top: 2em;
     margin-bottom: 1em;
+}
+
+#arrow {
+    margin-top: 1em;
+    font-size: 3em;
 }
 
 .head-img {
