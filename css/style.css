@@ -32,6 +32,10 @@ a {
     font-size: small;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* struttura blocchi pagina */
 .container {
     width: 80%;
@@ -137,9 +141,72 @@ header {
 /* /HEADER */
 
 /* MAIN */
-.title-h2 {
-    font-size: 2em;
+/* titolo */
+#sez1 {
+    margin-top: 15em;
+    /* test */
+    background-color: aqua;
 }
+
+.title-h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+/* radio */
+.fatt {
+    margin-bottom: 1em;
+}
+
+#annuale {
+    margin-left: 1em;
+}
+
+/* plan list */
+
+.db-plan {
+    width: 100%;
+    margin: 3em auto;
+
+    /* test */
+    background-color: rebeccapurple;
+    height: 1000px;
+}
+
+.plan-sx {
+    width: 30%;
+
+    /* test */
+    background-color: red;
+    height: 1000px;
+}
+
+.plan-mid {
+    width: 30%;
+
+    /* test */
+    background-color: green;
+    margin: 0 5%;
+    height: 1000px;
+}
+
+.plan-dx {
+    width: 30%;
+
+    /* test */
+    background-color: blue;
+    height: 1000px;
+}
+
+.col-bottom {
+    width: 100%;
+
+    /* test */
+    height: 200px;
+    background-color: orange;
+    margin-bottom: 3em;
+}
+
 /* /MAIN */
 
 /* 
