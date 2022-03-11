@@ -166,6 +166,7 @@ header {
 /* /HEADER */
 
 /* MAIN */
+/* SEZIONE 1 */
 /* titolo */
 #sez1 {
     margin-top: 15em;
@@ -266,7 +267,7 @@ header {
 }
 /* /plan common */
 
-.db-plan {
+.dropbox-plan {
     width: 100%;
     margin: 3em auto;
 }
@@ -309,6 +310,37 @@ header {
 
 .margin-bottom {
     margin-bottom: 1.3em;
+}
+/* /SEZIONE 1 */
+
+/* SEZIONE 2 */
+.partner {
+    margin: 8em auto;
+    width: 100%;
+}
+
+.partner-img {
+    width: 50%;
+}
+
+.partner-text {
+    width: 50%;
+    padding: 3em;
+}
+
+.partner-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.partner-text p {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+#btn-partner {
+    border: 1px solid black;
+    padding: .5em .8em;
 }
 
 /* /MAIN */
