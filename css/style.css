@@ -383,6 +383,7 @@ header {
 /* /SEZIONE 3 */
 
 /* SEZIONE 4 */
+/* common */
 .sez4-start {
     width: 50%;
     margin-bottom: 2em;
@@ -390,13 +391,6 @@ header {
 
 .sez4-start h2 {
     font-size: 2.6em;
-}
-
-.agency {
-
-
-    /* test */
-    background-color: #b4d0e7;
 }
 
 .team-sx {
@@ -470,7 +464,6 @@ header {
     filter: invert(100%);
 }
 
-
 .obDsx {
     position: relative;
     background-color: #ff1c1c;
@@ -484,6 +477,22 @@ header {
     width: 50%;
     filter: invert(100%);
 }
+
+/* colonna centrale */
+.team-mid {
+    padding: 2em 3em;
+}
+
+.mid-logo {
+    width: 20%;
+    padding-bottom: 3em;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 4em;
+}
+
+.mid-text {
+}
+/* /colonna centrale *
 
 /* colonna destra */
 .obAdx {
@@ -500,7 +509,6 @@ header {
     filter: invert(100%);
 }
 
-
 .obBdx {
     position: relative;
     background-color: #b4d0e7;
@@ -515,7 +523,6 @@ header {
     filter: invert(100%);
 }
 
-
 .obCdx {
     position: relative;
     background-color: #0d2481;
@@ -529,7 +536,6 @@ header {
     width: 50%;
     filter: invert(100%);
 }
-
 
 .obDdx {
     position: relative;
@@ -551,6 +557,7 @@ header {
     height: 400px;
 }
 
+/* Team Trial */
 .middle {
     position: absolute;
     top: 50%;
