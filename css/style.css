@@ -342,7 +342,44 @@ header {
     border: 1px solid black;
     padding: .5em .8em;
 }
+/* /SEZIONE 2 */
 
+/* SEZIONE 3 */
+/* Operazioni Business */
+.oper-row {
+
+    /* test */
+    height: 600px;
+    background-color: beige;
+}
+
+.col-oper {
+    width: calc(100% / 3);
+    padding: 1em;
+}
+
+.oper-sx {
+
+    /* test */
+    height: 500px;
+    background-color: red;
+}
+
+.oper-mid {
+
+    /* test */
+    height: 500px;
+    background-color: green;
+}
+
+.oper-dx {
+
+    /* test */
+    height: 500px;
+    background-color: blue;
+}
+
+/* /SEZIONE 3 */
 /* /MAIN */
 
 /* 
