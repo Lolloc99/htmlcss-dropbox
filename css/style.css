@@ -56,7 +56,7 @@ a {
     margin: auto;
 }
 
-.container-big {
+.container-full {
     width: 100%;
     margin: auto;
 }
@@ -580,6 +580,34 @@ header {
     padding: .5em 3em;
     background-color: white;
 }
+
+/* Domande frequenti */
+#sez5 {
+    margin-bottom: 3em;
+}
+
+.faq {
+    padding: 7em 0;
+}
+
+.faq h4 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.question {
+    padding: 2em;
+    padding-left: 0;
+
+    /* test */
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.first {
+    border-top: 1px solid lightgrey;
+}
+/* /Domande frequenti */
 
 
 /* /MAIN */
