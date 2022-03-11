@@ -346,11 +346,16 @@ header {
 
 /* SEZIONE 3 */
 /* Operazioni Business */
-.oper-row {
+.oper-title {
+    font-size: 2.5em;
+}
 
-    /* test */
-    height: 600px;
-    background-color: beige;
+.oper-row {
+    margin-bottom: 5em;
+}
+
+.oper-row:last-child {
+    margin-bottom: 8em;
 }
 
 .col-oper {
@@ -358,28 +363,18 @@ header {
     padding: 1em;
 }
 
-.oper-sx {
-
-    /* test */
-    height: 500px;
-    background-color: red;
+.oper-text h3 {
+    font-size: 1.7em;
 }
 
-.oper-mid {
-
-    /* test */
-    height: 500px;
-    background-color: green;
+.oper-text p {
+    font-weight: bold;
 }
-
-.oper-dx {
-
-    /* test */
-    height: 500px;
-    background-color: blue;
-}
-
 /* /SEZIONE 3 */
+
+/* SEZIONE 4 */
+
+
 /* /MAIN */
 
 /* 
