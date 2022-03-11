@@ -32,9 +32,18 @@ a {
     font-size: small;
 }
 
+.small2 {
+    font-size: small;
+    font-weight: bold;
+}
+
 .bold {
     font-weight: bold;
 }
+
+.blue{
+    color: #0061ff;
+ }
 
 /* struttura blocchi pagina */
 .container {
@@ -178,6 +187,11 @@ header {
 
 /* plan list */
 /* plan common */
+.plan-container {
+    margin: auto;
+    padding: 2em;
+}
+
 .plan-category {
     border: 1px solid grey;
     text-align: center;
@@ -198,31 +212,6 @@ header {
     font-size: 1.5em;
     font-weight: bold;
 }
-/* /plan common */
-
-.db-plan {
-    width: 100%;
-    margin: 3em auto;
-
-    /* test */
-    background-color: beige;
-    height: 1000px;
-}
-
-.plan-container {
-    margin: auto;
-    padding: 2em;
-
-}
-
-.plan-sx {
-    width: 30%;
-    border: 1px solid grey;
-
-    /* test */
-    height: 1000px;
-    background-color: white;
-}
 
 .A {
     margin-bottom: 3em;
@@ -234,46 +223,73 @@ header {
 
 #p2 {
     margin-left: 1.2em;
- }
+}
 
- .blu-btn-trial {
-     width: 100%;
-     text-align: center;
-     font-size: 0.9em;
-     margin-top: 2em;
-     padding: .7em 1.5em;
- }
+.blu-btn-trial {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 2em;
+    padding: .7em 1.5em;
+}
 
- .buy-now {
-     margin-top: 2em;
- }
+.buy-now {
+    margin-top: 2em;
+}
 
- .border-bottom {
-     padding-bottom: 2em;
-     border-bottom: 1px solid grey;
- }
+.border-bottom {
+    padding-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
 
- .buy {
+.buy {
     text-decoration: underline;
     color: #0061ff;
- }
+}
+
+.advantage {
+    width: 100%;
+    margin-top: 5em;
+}
+
+.advantage h4 {
+    margin-bottom: 1.5em;
+}
+
+.adv-check {
+    width: 5%;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.adv-text {
+    width: calc(95% - 0.2em);
+    margin-bottom: 1.5em;
+    margin-left: 0.2em;
+}
+/* /plan common */
+
+.db-plan {
+    width: 100%;
+    margin: 3em auto;
+}
+
+.plan-sx {
+    width: 30%;
+    border: 1px solid grey;
+}
 
 .plan-mid {
     width: 30%;
     border: 1px solid grey;
-
-    /* test */
     margin: 0 5%;
-    height: 1000px;
 }
 
 .plan-dx {
     width: 30%;
     border: 1px solid grey;
-
-    /* test */
-    height: 1000px;
 }
+/* /plan list */
 
 .col-bottom {
     width: 100%;
