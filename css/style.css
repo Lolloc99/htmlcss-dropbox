@@ -193,12 +193,9 @@ header {
 }
 
 .plan-category {
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     text-align: center;
     padding: 1em;
-
-    /* test */
-    background-color: white;
 }
 
 .plan-period {
@@ -295,9 +292,23 @@ header {
     width: 100%;
 
     /* test */
-    height: 200px;
-    background-color: orange;
     margin-bottom: 3em;
+}
+
+.plan-category-bottom {
+    border: 1px solid grey;
+    border-bottom: none;
+    text-align: center;
+    padding: 1em;
+}
+
+.long-col {
+    border: 1px solid grey;
+    padding: 2em;
+}
+
+.margin-bottom {
+    margin-bottom: 1.3em;
 }
 
 /* /MAIN */
