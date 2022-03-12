@@ -29,6 +29,17 @@ a {
     color: #0061ff;
 }
 
+.alt-link {
+    display: inline-block;
+    margin: .7em;
+    text-decoration: none;
+    font-size: small;
+}
+
+.def-link:hover {
+    text-decoration: none;
+}
+
 .larger {
     font-size: larger;
 }
@@ -48,7 +59,11 @@ a {
 
 .blue{
     color: #0061ff;
- }
+}
+
+.grey {
+    color: lightgrey;
+}
 
 /* struttura blocchi pagina */
 .container {
@@ -83,6 +98,10 @@ a {
     background-color: #0061ff;
 }
 
+.blu-btn:hover {
+    background-color: #3280ff;
+}
+
 .blu-btn-trial {
     display: inline-block;
     padding: .5em 2em;
@@ -90,12 +109,17 @@ a {
     background-color: #0061ff;
 }
 
+.blu-btn-trial:hover {
+    background-color: #3280ff;
+}
+/* /COMMON */
+
 /* NAV */
 nav {
     position: fixed;
     z-index: 999999;
     width: 100%;
-    line-height: 80px;
+    /* line-height: 80px; */
     background-color: white;
 }
 
@@ -118,6 +142,33 @@ nav {
     vertical-align: middle;
     font-weight: bold;
     margin: 0 1em;
+    padding: 1.5em 0;
+}
+
+.menu-list li:hover {
+    border-bottom: 3px solid black;
+}
+
+.under-sez-container {
+    position: relative;
+}
+
+.under-sez-container:hover .under-sez {
+    display: block;
+}
+
+.under-sez {
+    display: none;
+    position: absolute;
+    top: 4.3em;
+    width: 14em;
+    padding: 1em 1em;
+    background-color: white;
+}
+
+.under-sez p{
+    font-size: small;
+    padding: 0.4em 1em;
 }
 
 .button-dx {
@@ -125,10 +176,8 @@ nav {
 }
 
 .nav-btn {
-    margin: 0 1em;
-
-    /* test */
     display: inline;
+    margin: 0 1em;
 }
 /* /NAV */
 
@@ -294,11 +343,9 @@ header {
 }
 /* /plan list */
 
+/* colonna in fondo */
 .col-bottom {
     width: 100%;
-
-    /* test */
-    margin-bottom: 3em;
 }
 
 .plan-category-bottom {
@@ -316,6 +363,7 @@ header {
 .margin-bottom {
     margin-bottom: 1.3em;
 }
+/* /colonna in fondo */
 /* /SEZIONE 1 */
 
 /* SEZIONE 2 */
@@ -346,6 +394,10 @@ header {
 #btn-partner {
     border: 1px solid black;
     padding: .5em .8em;
+}
+
+#btn-partner:hover {
+    background-color: #f1f1f1;
 }
 /* /SEZIONE 2 */
 
@@ -477,10 +529,12 @@ header {
     width: 50%;
     filter: invert(100%);
 }
+/* /colonna sinistra */
 
 /* colonna centrale */
 .team-mid {
     padding: 2em 3em;
+    overflow: auto;
 }
 
 .mid-logo {
@@ -490,8 +544,6 @@ header {
     margin-bottom: 4em;
 }
 
-.mid-text {
-}
 /* /colonna centrale *
 
 /* colonna destra */
@@ -550,14 +602,15 @@ header {
     width: 50%;
     filter: invert(100%);
 }
+/* /colonna destra */
 
+/* Team Trial */
 .team-trial {
     position: relative;
     background-color: #b4d0e7;
     height: 400px;
 }
 
-/* Team Trial */
 .middle {
     position: absolute;
     top: 50%;
@@ -581,6 +634,11 @@ header {
     background-color: white;
 }
 
+.middle-dx a:hover {
+    background-color: #f1f1f1;
+}
+/* /Team Trial */
+
 /* Domande frequenti */
 #sez5 {
     margin-bottom: 3em;
@@ -595,12 +653,36 @@ header {
     margin-bottom: 2em;
 }
 
+.faq-hover {
+    display: none;
+    padding-right: 10em;
+    margin-top: 1em;
+    color: lightgrey;
+}
+
+.question:hover .faq-hover {
+    display: inline-block;
+}
+
+.question:hover .fas-def {
+    display: none;
+}
+
+.question:hover .fas-hover {
+    display: inline;
+}
+
+.fas-def {
+    display: inline;
+}
+
+.fas-hover {
+    display: none;
+}
+
 .question {
     padding: 2em;
     padding-left: 0;
-
-    /* test */
-    background-color: white;
     border-bottom: 1px solid lightgrey;
 }
 
@@ -631,6 +713,10 @@ footer {
     margin-bottom: .8em;
 }
 
+.footer-list ul li:hover {
+    text-decoration: underline;
+}
+
 .list-title {
     color: white;
     font-size: 1em;
@@ -650,12 +736,7 @@ footer {
     font-size: small;
     color: lightgrey;
 }
-
-.grey {
-    color: lightgrey;
-}
 /* /Footer */
-
 /* /MAIN */
 
 /*
