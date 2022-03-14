@@ -40,10 +40,6 @@ a {
     text-decoration: none;
 }
 
-.larger {
-    font-size: larger;
-}
-
 .small {
     font-size: small;
 }
@@ -117,10 +113,11 @@ a {
 /* NAV */
 nav {
     position: fixed;
-    z-index: 999999;
+    z-index: 999;
     width: 100%;
-    /* line-height: 80px; */
     background-color: white;
+    height: 80px;
+    line-height: 80px;
 }
 
 .logo-dropbox {
@@ -139,14 +136,14 @@ nav {
 
 .menu-list li {
     display: inline-block;
-    vertical-align: middle;
+    line-height: 72px;
     font-weight: bold;
     margin: 0 1em;
-    padding: 1.5em 0;
 }
 
-.menu-list li:hover {
-    border-bottom: 3px solid black;
+.menu-list li a:hover {
+    display: inline-block;
+    border-bottom: 4px solid green;
 }
 
 .under-sez-container {
@@ -160,7 +157,7 @@ nav {
 .under-sez {
     display: none;
     position: absolute;
-    top: 4.3em;
+    top: 4.7em;
     width: 14em;
     padding: 1em 1em;
     background-color: white;
@@ -189,7 +186,7 @@ nav {
 
 header {
     background-color: #b4d0e7;
-    height: 90vh;
+    height: 85vh;
     padding-top: 80px;
 }
 
@@ -207,6 +204,10 @@ header {
     width: 30%;
     padding-left: 5em;
     margin-right: 10%;
+}
+
+.text-box p {
+    font-size: larger;
 }
 
 .btn-trial {
@@ -326,20 +327,25 @@ header {
     margin: 3em auto;
 }
 
-.plan-sx {
+.plan-col {
     width: 30%;
     border: 1px solid grey;
 }
+/*  
+wafsf
 
-.plan-mid {
-    width: 30%;
-    border: 1px solid grey;
+efsdfe
+
+asfwaw
+
+sdf
+f
+
+
+ */
+
+.mid {
     margin: 0 5%;
-}
-
-.plan-dx {
-    width: 30%;
-    border: 1px solid grey;
 }
 /* /plan list */
 
@@ -445,47 +451,42 @@ header {
     font-size: 2.6em;
 }
 
-.team-sx {
+.agency {
+    background-color: #f5f5f5;
+}
+
+.team-col {
     width: 30%;
-    height: 500px;
 }
 
 .team-mid {
     width: 40%;
-    height: 500px;
-    background-color: #f5f5f5;
-}
-
-.team-dx {
-    width: 30%;
-    height: 500px;
-    background-color: blue;
 }
 
 .agency-row {
     width: 100%;
-    height: calc(100% / 2);
+    height: 50%;
 }
 
 .agency-object {
-    width: 50%;
-    height: 100%;
+    width: 19.8em;
+    height: 19.8em;
 }
 
 /* colonna sinistra */
-.obAsx {
-    position: relative;
-    background-color: #a2d39b;
-    border: .8em solid #d0e9cd;
-}
-
-.obAsx img {
+.obj img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
     filter: invert(100%);
+}
+
+.obAsx {
+    position: relative;
+    background-color: #a2d39b;
+    border: .8em solid #d0e9cd;
 }
 
 .obBsx {
@@ -493,41 +494,14 @@ header {
     background-color: #61082b;
 }
 
-.obBsx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
-}
-
 .obCsx {
     position: relative;
     background-color: #0093ce;
 }
 
-.obCsx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
-}
-
 .obDsx {
     position: relative;
     background-color: #ff1c1c;
-}
-
-.obDsx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
 }
 /* /colonna sinistra */
 
@@ -552,27 +526,9 @@ header {
     background-color: #d5001f;
 }
 
-.obAdx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
-}
-
 .obBdx {
     position: relative;
     background-color: #b4d0e7;
-}
-
-.obBdx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
 }
 
 .obCdx {
@@ -580,27 +536,9 @@ header {
     background-color: #0d2481;
 }
 
-.obCdx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
-}
-
 .obDdx {
     position: relative;
     background-color: #ffd830;
-}
-
-.obDdx img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    filter: invert(100%);
 }
 /* /colonna destra */
 
