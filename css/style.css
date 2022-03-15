@@ -141,7 +141,7 @@ nav {
     margin: 0 1em;
 }
 
-.menu-list li a:hover {
+.menu-list li > a:hover {
     display: inline-block;
     border-bottom: 4px solid green;
 }
@@ -250,6 +250,7 @@ header {
 /* plan common */
 .plan-container {
     margin: auto;
+    min-height: 800px;
     padding: 2em;
 }
 
@@ -637,11 +638,11 @@ footer {
 
 .footer-container {
     position: relative;
-    height: 300px;
 }
 
 .footer-list {
     width: calc(100% / 5);
+    margin-bottom: 15em;
 }
 
 .footer-list ul li {
@@ -668,6 +669,7 @@ footer {
     padding-top: 2em;
     padding-right: 2em;
     border-top: 1px solid white;
+    margin-top: 5em;
 }
 
 .lang {
